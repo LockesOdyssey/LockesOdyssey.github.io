@@ -4,16 +4,16 @@
 
 # Site
 title: Locke's Odyssey
-subtitle: '123'
-description: ''
-keywords:
+subtitle: ''
+description: '个性签名'
+keywords: 'Locke'
 author: Locke
-language: zh-CN
-timezone: ''
+language: zh-TW
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: 'https://LockesOdyssey.github.io/project'
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -21,10 +21,15 @@ pretty_urls:
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
+#文章对应的位置
 source_dir: source
+#渲染的文件位置
 public_dir: public
+#标签对应的文件目录
 tag_dir: tags
+#时间线对应的目录
 archive_dir: archives
+#分类对应的目录
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
