@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Locke's Odyssey
+title: 
 subtitle: ''
-description: '个性签名'
-keywords: 'Locke'
+description: ''
+keywords:
 author: Locke
-language: zh-TW
-timezone: Asia/Shanghai
+language: zh-Hans
+timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: 'https://github.com/LockesOdyssey'
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -21,15 +21,10 @@ pretty_urls:
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
-#文章对应的位置
 source_dir: source
-#渲染的文件位置
 public_dir: public
-#标签对应的文件目录
 tag_dir: tags
-#时间线对应的目录
 archive_dir: archives
-#分类对应的目录
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
@@ -101,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: coder
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
